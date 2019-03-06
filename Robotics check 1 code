@@ -1,0 +1,44 @@
+
+#include <kipr/botball.h>
+
+int main()
+
+{
+// initialize servo, camera, etc here?.
+
+// if you are using a Create you should uncomment the next line
+
+//create_connect();
+
+wait_for_light(0); // change the port number to match where your robot
+
+Motor (0,85);
+
+Motor (1,100);
+
+msleep(2700);
+
+Motor (0,-100);
+
+Motor (1,100);
+
+msleep(1100);
+
+Motor (0,85);
+
+Motor (1,100);
+
+msleep(6500);
+
+Motor (0,-100);
+
+Motor (1,-100);
+
+msleep(2000);
+
+
+    shut_down_in(119); // shut off the motors and stop the Create after 119 seconds
+
+}
+
+
