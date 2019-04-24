@@ -16,28 +16,69 @@ wait_for_light(0); // change the port number to match where your robot
 
  motor (1,100);
 
-msleep(2800);
+msleep(1900);
 
- motor (0,00);
+motor (1,100);
 
- motor (1,100);
+motor (0,00);
+ 
+msleep(1000);
+    
+motor (1,100);
+    
+motor (0,100);
+ 
+ msleep(1000);
+    
+ motor (0,100);
 
-msleep(1500);
+ motor (1,00);
+
+msleep(1000);
 
  motor (0,100);
 
  motor (1,100);
 
-msleep(6200);
+msleep(999);
 
- motor (0,-100);
+motor (1,00);
 
- motor (1,-100);
+motor (0,100);
+
+msleep (1100);
+    
+motor (1,100);
+    
+motor (0,100);
+
+msleep (3900);
+       
+motor (0,100);
+    
+motor (1,00);
+    
+msleep(1000);
+    
+motor (1,100);
+    
+motor (0,100); 
+  
+msleep(1000);
+    
+motor (0,-100);
+
+motor (1,-100);
 
 msleep(2000);
 
     shut_down_in(119); // shut off the motors and stop the Create after 119 seconds
 return 0;
 }
+
+
+
+
+
 
 
